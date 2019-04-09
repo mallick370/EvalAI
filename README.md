@@ -1,2 +1,2 @@
 # EvalAI
-A sample landing page for the 
+A sample landing page for the EvalAi
