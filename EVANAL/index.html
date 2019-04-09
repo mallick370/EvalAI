@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>EvalAi</title>
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans|Montserrat:300,350,400|Changa+One|PT+Sans+Caption:400,700|Exo:100,400,600,800|Heebo|Oxygen|Raleway|Lato:300|Kreon|Acme|Anton|Open+Sans+Condensed:700|Fredoka+One|Open+Sans:300,400,600,700|Righteous|Roboto:400,500,700,300" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="assets/logo.ico" type="image/x-icon">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://use.typekit.net/kxf0iwn.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" href="css/style.css">
+	
+	<style>
+	#h6 {
+        font-size: 10px;
+        line-height: 0px;
+        margin: 0px;
+        padding: 0px;
+        color: white;
+    }
+	</style>
+	
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+	<script>
+		function myFunction() {
+	    document.getElementById("d1").style.WebkitTransition = "all 2s"; // Code for Safari 3.1 to 6.0
+	    document.getElementById("d1").style.transition = "all 2s";
+		}
+	</script>
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "22vw";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
+	<script type="text/javascript">
+		<!--
+			if (screen.width <= 1100) {
+				document.location = "uc.html";
+			}
+		//-->
+	</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="scrolloverflow.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: true,
+				sectionsColor: ['#1bbc9b','#201e1c','#e73827','#201e1c','#201e1c','#201e1c']
+			});
+		});
+	</script>
+
+</head>
+<body onLoad="myFunction()">
+
+	<div class="headerh">		<!--Navigation Menu-->
+					
+		<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		
+		<span class="s2demi">EvalAi</span><br><br>
+		
+		
+		<a href="#" class="uppl">HOME</a><br>
+		<a href="#" class="uppl">REGISTER</a><br>
+		<a href="#" class="uppl">LOGIN</a><br>
+		
+		<a href="#" class="uppl">ABOUT US</a><br><br><br><br><br>
+
+		<img src="evalai_logo.png" width="40%" style="padding-left: 40px;padding-top: 60px;">
+
+		</div>
+
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&nbsp;&nbsp;&nbsp;&#9776;</span><br><br>
+
+	</div>
+		
+
+	<div id="fullpage">
+	
+	<div class="section " id="section0">
+
+		<!--Background Video-->
+
+		<img id="myVideo" loop muted data-autoplay>
+			<source src="pexels-photo-1181676.jpeg" >
+			</img>
+
+		<div class="layer">		<!--Video Overlay-->
+			<div class="hero">
+				
+				<span class="s1">Evaluating state-of the-art in AI</span><br><br>
+				<span class="s2"> EvalAi</span><br><br><br>
+				<span class="s1"><h5>EvalAI is an open source platform for evaluating and comparing machine learning (ML) and artificial intelligence algorithms (AI) at scale.</h5></span><br><br>
+				
+				<a href="#">		<!--Scroll Down Arrow Module-->
+				  	<div class="content-arrow">
+					    <svg id="more-arrows">
+					      <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "/>
+					      <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "/>
+					      <polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "/>
+					    </svg>
+				  	</div>
+				</a>
+
+			</div>
+		</div>
+
+	</div>
+
+	<div class="section" id="section2">
+		
+		<h2 class="intro-date">
+	                <span>Evaluating state-of the-art in AI &mdash; EvalAI</span>
+	                
+	    </h2>
+
+		<div class="intro-text">
+            <p>
+
+           	 	<!--Intro Paragraph-->
+					EvalAI is built by a team of open source enthusiasts working at CloudCV. CloudCV aims to make AI research reproducible and easily accessible. We want to reduce the barrier to entry for doing research and make it easier for researchers, students and developers to develop and use state-of-the-art algorithms as a service.
+
+					With EvalAI, we want to standardize the process of evaluating different methods on a dataset and make it simple to host a competition. Comparing a new method with other existing approaches is an essential component of research and this process has traditionally been affected by difference in evaluation metric implementation, different splits of the dataset or minor modifications in the algorithm. This makes it extremely hard to reproduce numbers from published papers and reliably compare your method with other existing approaches.
+            
+            </p>
+        </div>
+		
+		<a href="#">
+		  <div class="content-arrow">
+		    <svg id="more-arrows">
+		      <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "/>
+		      <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "/>
+		      <polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "/>
+		    </svg>
+		  </div>
+		</a>
+
+	
+	</div>
+
+	<div class="section" id="section1">
+			
+	    <div class="slide" id="slide1">
+				<h2 class="intro-date">
+						<span>Features &mdash; EvalAI</span>
+						
+			</h2>
+			<div class="intro">
+				<div class="categoryDef">
+					<span id="categoryHeader">Custom evaluation protocol</span><br><br><br>
+					<span id="categoryDesc">We allow creation of an arbitrary number of evaluation phases and dataset splits, compatibility using any programming language, and organizing results in both public and private leaderboards.
+                            
+                    </span>
+					<br><br><br><br>
+				</div>
+
+				<div class="categoryImage">
+					<img src="protocols.png" height="52%" style="padding-top: 1vh;">
+				</div>
+			</div>
+			
+		</div>
+
+		<a href="#">
+  			<div class="content-arrow">
+			    <svg id="more-arrows">
+			      <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "/>
+			      <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "/>
+			      <polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "/>
+			    </svg>
+		  </div>
+		</a>
+
+
+	    <div class="slide" id="slide2">
+				<h2 class="intro-date">
+						<span>Features &mdash; EvalAI</span>
+						
+			</h2>
+			<div class="intro">
+					
+				<div class="categoryDef">
+					<span id="categoryHeader">Remote Evaluation</span><br><br><br>
+					<span id="categoryDesc">
+						Certain large-scale challenges need special compute capabilities for evaluation. If the challenge needs extra computational power, challenge organizers can easily add their own cluster of worker nodes to process participant submissions while we take care of hosting the challenge, handling user submissions, and maintaining the leaderboard.
+                   
+                    </span>
+
+                    <br><br><br><br>
+                        
+                    
+                       	  
+				</div>
+
+				<div class="categoryImage">
+					<img src="remote.png" height="52%" style="padding-top: 1vh;">
+				</div>
+			</div>
+
+		</div>
+
+		
+		
+
+	</div>
+	
+	<div class="section" id="section3">
+		
+		<section class="team">
+			<div class="container">
+				<div class="row">
+					<h1>Popular challenges</h1>
+					
+				</div>
+				<div class="row mgt50px">
+					<div class="column">
+						<div class="imgBox">
+							<img src="https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+						</div>
+						<div class="details">
+								<h3>TEXT VGA QA<br><span>Organized by: xyz</span></h3>
+								<ul>
+										<a href="#"><button class="btn success">View Details</button></a>
+								</ul>
+							</div></div>
+					<div class="column">
+						<div class="imgBox">
+							<img src="https://images.pexels.com/photos/1231643/pexels-photo-1231643.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+						</div>
+						<div class="details">
+								<h3>TEXT VGA QA<br><span>Organized by: xyz</span></h3>
+								<ul>
+										<a href="#"><button class="btn success">View Details</button></a>
+								</ul>
+							</div></div>
+					<div class="column"><div class="imgBox">
+							<img src="https://images.pexels.com/photos/305816/pexels-photo-305816.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+						</div>
+						<div class="details">
+							<h3>TEXT VGA QA<br><span>Organized by: xyz</span></h3>
+							<ul>
+									<a href="#"><button class="btn success">View Details</button></a>
+							</ul>
+						</div></div>
+					<div class="column"><div class="imgBox">
+							<img src="https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+						</div>
+						<div class="details">
+							<h3>Text VQA challenge<br><span>organized by FAIR-A-STAR</span></h3>
+							<ul>
+								<a href="#"><button class="btn success">View Details</button></a>
+							</ul>
+						</div>
+					</div>
+				<div style="clear:both;"></div>
+				</div>
+			</div>
+		</section>
+	
+
+			<a href="#">		<!--Scroll Down Arrow Module-->
+			  	<div class="content-arrow">
+				    <svg id="more-arrows">
+				      <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "/>
+				      <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "/>
+				      <polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "/>
+				    </svg>
+			  	</div>
+			</a>
+
+	</div>
+		
+	
+
+	<div class="section" id="section5" style="text-align: center;">
+	
+		<section id="contactUs">
+    		
+    		<div class="mapouter">
+
+		    	
+
+      			<table class="ContactTable">
+		      	<tr>
+		      		<td id="leftColHead">Phone</td>
+		      		<td id="centerColHead">Email</td>
+		      		<td id="rightColHead">Address</td>
+		      	</tr>
+		      	<tr>
+		      		<td id="leftCol">&nbsp;</td>
+		      		<td id="centerCol">&nbsp;</td>
+		      		<td id="rightCol">&nbsp;</td>
+		      	</tr>
+		      	<tr>
+		      		<td id="leftCol">General Info: +91 9123782010</td>
+		      		<td id="centerCol">mallick370@gmail.com</td>
+		      		<td id="rightCol">EvalAi</td>
+		      	</tr>
+		      	<tr>
+		      		<td id="leftCol">Technical Support: +91 7781957003</td>
+		      		<td id="centerCol">&nbsp;</td>
+		      		<td id="rightCol">EvalAi</td>
+		      	</tr>
+		      	<tr>
+		      		<td id="leftCol">Sponsorship: +91 7683979698</td>
+		      		<td id="centerCol">&nbsp;</td>
+		      		<td id="rightCol">Patia, Bhubaneswar - 751024</td>
+		      	</tr>
+      			</table>
+
+
+			</div>
+
+  		</section>
+
+  		<div class="footc">All rights reserved. Designed by Mayukh Mallick.</div>
+
+		<div class="footer">
+
+			<a href="#" target="_blank"><img src="fb.png" style="height:5vh"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#" target="_blank"><img src="ig.png" style="height:5vh"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#" target="_blank"><img src="tw.png" style="height:5vh"></a>
+		</div>
+		
+		<br><br><br>
+
+		
+
+		<br><br><br>
+		
+	</div>
+	
+	
+	</div>
+
+</body>
+</html>
+		<!--<div class="mapouter"><div class="gmap_canvas"><iframe width="1200" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=ksac%20bhubaneswar&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com">emojilib.com</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:900px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:900px;}</style></div>-->
+
+
+		
+		
+
+		 
