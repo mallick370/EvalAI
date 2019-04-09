@@ -8,4 +8,4 @@ Please note that
 4. Currently, this website is best viewed ay 1920 x 1080 pixels.
 
 Regards,
-Mayukh Mallick
+Soumya Lahiri
