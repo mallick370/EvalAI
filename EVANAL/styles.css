@@ -2200,15 +2200,17 @@ a.watch:link, a.watch:visited
 	  }
 	  #slide1
 	  {
-		background-image:-moz-linear-gradient( 125deg, #ffb4aa 0%, #d02ac2 100%);
-		background-image: -webkit-linear-gradient( 125deg, #ffb4aa 0%, #d02ac2 100%);
-		background-image: -ms-linear-gradient( 125deg, #ffb4aa 0%, #d02ac2 100%);
+		background-image:-moz-linear-gradient( 125deg, #301777 0%, #2b81b3 100%);
+		background-image: -webkit-linear-gradient( 125deg,  #301777 0%, #2b81b3 100%);
+		background-image: -ms-linear-gradient( 125deg, #301777 0%, #2b81b3 100%);
 	  }
 	  .team{
 		padding: 50px 0;
 		height: 100vh;
 		box-sizing: border-box;
-		background: #26223e;
+		background-image:-moz-linear-gradient( 135deg, rgb(223, 45, 148) 0%, rgb(121, 15, 124) 100%);
+		background-image: -webkit-linear-gradient( 135deg,  rgb(223, 45, 148) 0%, rgb(121, 15, 124) 100%);
+		background-image: -ms-linear-gradient( 135deg, rgb(223, 45, 148) 0%, rgb(121, 15, 124) 100%);
 	}
 	.container{
 		width: 80%;
